@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="h_img" >
+                 <img  src="./img/header.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <input type="button" id="add" class="add_1" value="New Item">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+           <ol></ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 ">
+            <div class="foot">
+                
+                ©2017 Qier Shopping.com
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 foot_img">
+            <img src="./img/f.jpg" alt="">
+            <img src="./img/g.jpg" alt="">
+            <img src="./img/b.jpg" alt="">
+        </div>
+    </div>
+               <br>
+               <br>
+               <p> Ottawa Institution - </p>
+               <p>Address: 1795 baseline, Ottawa, Canada</p>
+               <p> K1G 6G7</p>
+               <p> Phone Nmuber: +1-(613)-658-6xx</p>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">add new item</h4>
+            </div>
+            <div class="modal-body">
+                <p>Enter a new item for to-do list</p>
+                <input type="text" id="newItem" value="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary save" id="saveItem">　ok　</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</html>

@@ -1,1 +1,1 @@
-# ui-and-dynamic-contents
+# ui-and-dynamic-content
